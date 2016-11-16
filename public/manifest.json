@@ -1,0 +1,16 @@
+{
+  "name": "Suraagini- My Music App",
+  "short_name": "Suraagini",
+  "start_url": "./index.html?utm=homescreen",
+  "icons": [
+    {
+      "src":"/img/music-player.png",
+      "sizes": "128x128",
+      "type": "image/jpg"
+    }
+  ],
+  "background_color": "#000",
+  "theme_color": "#2196f3",
+  "display": "standalone",
+  "orientation":"portrait"
+}

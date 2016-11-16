@@ -1,0 +1,378 @@
+<div>
+
+    <br>
+
+    <div class="container">
+        <div class="text-center">
+
+            <uib-tabset active="active">
+                <uib-tab index="0" select="getAllTracks(firstCallTrack)">
+                    <uib-tab-heading>
+                        <i class="glyphicon glyphicon-headphones"></i> TRACKS
+                    </uib-tab-heading>
+                    <br>
+                    <div class="container">
+                        <h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">TRACK LIST</h3>
+                        <md-content>
+
+                            <form name="searchForm" method="post" autocomplete="off">
+
+                                <!--<section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">-->
+
+                                <md-input-container class="mdi-block" flex-gt-sm="" flex-gt-xs="">
+
+                                    <div class="row">
+                                        <input name="searchQry" ng-model="searchQuery" type="text"
+                                               style="background-color: white;width: 300px;border: solid 1px black"
+                                               aria-label="search">
+                                    </div>
+
+                                    <div class="row">
+                                        <md-button class="md-raised" aria-label="Search icon"
+                                                   ng-click="search(searchQuery)">
+                                            <i class="glyphicon glyphicon-search"></i> &nbsp;Search
+                                        </md-button>
+                                        <span flex></span>
+                                        <md-button class="md-raised" aria-label="Reset icon" ng-click="clearSearch()">
+                                            <i class="glyphicon glyphicon-remove-circle"></i> &nbsp;Clear
+                                        </md-button>
+                                    </div>
+
+                                </md-input-container>
+
+                                <!--</section>-->
+                            </form>
+
+                        </md-content>
+
+                        <md-content class="text-center">
+
+                            <md-list flex="">
+                                <md-list-item class="md-3-line" ng-repeat="track in allTracks">
+                                    <div class="md-list-item-text" layout="column">
+                                        <div class="row-fluid">
+                                            <h2 class="pull-left">
+                                                {{ track.title }}
+                                                <i class="glyphicon glyphicon-edit" style="font-size: 18px" ng-click="showPromptEditTrackTitle(track, $event);">
+                                                    <md-tooltip md-direction="right">
+                                                        Edit Track Title
+                                                    </md-tooltip>
+                                                </i>
+                                            </h2>
+                                            <span class="pull-right" uib-rating ng-model="track.rating" max="10"
+                                                  read-only="true"
+                                                  on-hover="hoveringOver(track.rating)"
+                                                  aria-labelledby="default-rating"
+                                                  ng-click="showPromptEditTrackRating(track, $event);">
+                                            </span>
+                                        </div>
+
+                                        <div class="row-fluid">
+                                            <ul ng-repeat="gen in track.genres" style="list-style: none;">
+                                                <li style="display: inline; float: left"> {{ $first ? '[' : '' }}{{ gen.name }}{{ $last ? ']' : '&nbsp;|&nbsp;' }}
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </md-list-item>
+
+                                <md-button class="md-raised" ng-disabled="" ng-click="callPrevTrack()">
+                                    Previous
+                                </md-button>
+
+                                <md-button class="md-raised" ng-disabled="" ng-click="callNextTrack()">
+                                    Next
+                                </md-button>
+
+                            </md-list>
+
+                            <md-button class="md-raised md-primary md-block" ng-click="addNewTrack($event);">
+                                ADD NEW TRACK
+                            </md-button>
+
+                        </md-content>
+                    </div>
+                </uib-tab>
+
+                <script type="text/ng-template" id="dialog1.tmpl.html">
+                    <md-dialog
+                            aria-label="Add New Track">
+                        <form ng-cloak name="userForm" style="color: black">
+                            <md-toolbar>
+                                <div class="md-toolbar-tools">
+                                    <h2>Add New Track</h2>
+                                    <span flex></span>
+                                    <md-button aria-label="Add new track" class="" ng-click="cancel()">
+                                        <i class="glyphicon glyphicon-remove">
+                                        </i>
+                                    </md-button>
+                                </div>
+                            </md-toolbar>
+
+                            <md-dialog-content>
+                                <div class="md-dialog-content">
+
+                                    <div layout-gt-sm="row">
+                                        <md-input-container class="md-block" flex-gt-sm="">
+                                            <label>Track Title</label>
+                                            <input ng-model="newTrack.Title" autofocus>
+                                        </md-input-container>
+
+                                        <md-input-container class="md-block" flex-gt-sm="">
+                                            <label>Track Rating</label>
+                                            <input name="rating" ng-model="newTrack.Rating" required=""
+                                                   ng-pattern="/^[0-9]{1}(\.[0-9])?$/" md-maxlength="3">
+
+                                            <div ng-messages="userForm.rating.$error" role="alert" multiple="">
+                                                <div ng-message="required" class="my-message">You must supply a track
+                                                    rating.E.g.: x.x
+                                                </div>
+                                                <div ng-message="pattern" class="my-message">Not a valid track
+                                                    rating.E.g.: x.x
+                                                </div>
+                                                <div ng-message="md-maxlength" class="my-message">
+                                                    Max length is 3 digits.E.g.: x.x
+                                                </div>
+                                            </div>
+                                        </md-input-container>
+                                    </div>
+
+                                    <div>
+
+                                        <!--<md-chips ng-model="editableFruitNames" readonly="false" md-removable="true" md-enable-chip-edit="true"></md-chips>-->
+
+                                        <!--<div flex-xs="">-->
+                                        <!--<md-checkbox aria-label="Select All" ng-checked="isChecked()"-->
+                                        <!--md-indeterminate="isIndeterminate()" ng-click="toggleAll()">-->
+                                        <!--<span ng-if="isChecked()">Un-</span>Select All-->
+                                        <!--</md-checkbox>-->
+                                        <!--</div>-->
+
+                                        <label>Track Genres</label>
+                                        <div class="" ng-repeat="item1 in allGenres1">
+                                            <md-checkbox ng-checked="existss(item1.id, selected)"
+                                                         ng-click="toggle1(item1.id, selected)">
+                                                {{ item1.name }}
+                                            </md-checkbox>
+                                        </div>
+
+                                        <md-button class="md-raised" ng-disabled="" ng-click="callPrevGenre1()">
+                                            Previous
+                                        </md-button>
+
+                                        <md-button class="md-raised" ng-disabled="" ng-click="callNextGenre1()">
+                                            Next
+                                        </md-button>
+                                    </div>
+
+                                </div>
+                            </md-dialog-content>
+
+                            <md-dialog-actions layout="row">
+                                <md-button ng-click="cancel()">
+                                    Cancel
+                                </md-button>
+                                <md-button ng-click="saveNewTrack()" ng-disabled="userForm.$invalid">
+                                    Save
+                                </md-button>
+                            </md-dialog-actions>
+                        </form>
+                    </md-dialog>
+                </script>
+
+                <script type="text/ng-template" id="myModalContent.html">
+                    <div class="modal-body" id="modal-body">
+
+                        <form ng-cloak name="userForm">
+                            <md-toolbar>
+                                <div class="md-toolbar-tools">
+                                    <h2>Edit Track</h2>
+                                    <!--<span flex></span>-->
+                                    <!--<md-button aria-label="Edit track" class="" ng-click="cancel()">-->
+                                        <!--<i class="glyphicon glyphicon-remove">-->
+                                        <!--</i>-->
+                                    <!--</md-button>-->
+                                </div>
+                            </md-toolbar>
+
+                            <md-dialog-content>
+                                <div class="md-dialog-content">
+
+                                    <div layout-gt-sm="row">
+                                        <!--<md-input-container class="md-block" flex-gt-sm="">-->
+                                            <!--<label>New Track Title</label>-->
+                                            <!--<input ng-model="trackToUpdate.Title" autofocus>-->
+                                        <!--</md-input-container>-->
+
+                                        <md-input-container class="md-block" flex-gt-sm="">
+                                            <label>New Track Rating</label>
+                                            <input name="rating" ng-model="trackToUpdate.Rating" required=""
+                                                   ng-pattern="/^[0-9]{1}(\.[0-9])?$/" md-maxlength="3">
+
+                                            <div ng-messages="userForm.rating.$error" role="alert" multiple="">
+                                                <div ng-message="required" class="my-message">You must supply a track
+                                                    rating.E.g.: x.x
+                                                </div>
+                                                <div ng-message="pattern" class="my-message">Not a valid track
+                                                    rating.E.g.: x.x
+                                                </div>
+                                                <div ng-message="md-maxlength" class="my-message">
+                                                    Max length is 3 digits.E.g.: x.x
+                                                </div>
+                                            </div>
+                                        </md-input-container>
+                                    </div>
+
+                                    <div>
+
+                                        <!--<div flex-xs="">-->
+                                        <!--<md-checkbox aria-label="Select All" ng-checked="isChecked()"-->
+                                        <!--md-indeterminate="isIndeterminate()" ng-click="toggleAll()">-->
+                                        <!--<span ng-if="isChecked()">Un-</span>Select All-->
+                                        <!--</md-checkbox>-->
+                                        <!--</div>-->
+
+                                        <label>New Track Genres</label>
+                                        <div class="" ng-repeat="item in allGenres11">
+                                            <md-checkbox ng-checked="existsss(item.id, selected1)"
+                                                         ng-click="toggle11(item.id, selected1)">
+                                                {{ item.name }}
+                                            </md-checkbox>
+                                        </div>
+
+                                        <md-button class="md-raised" ng-disabled="" ng-click="callPrevGenre()">
+                                            Previous
+                                        </md-button>
+
+                                        <md-button class="md-raised" ng-disabled="" ng-click="callNextGenre()">
+                                            Next
+                                        </md-button>
+                                    </div>
+
+                                </div>
+                            </md-dialog-content>
+
+                            <md-dialog-actions layout="row">
+                                <md-button ng-click="cancel()">
+                                    Cancel
+                                </md-button>
+                                <md-button ng-click="updateTrack()" ng-disabled="userForm.$invalid">
+                                    Update
+                                </md-button>
+                            </md-dialog-actions>
+                        </form>
+
+                    </div>
+                    <!--<div class="modal-footer">-->
+                        <!--<button>OK</button>-->
+                        <!--<button>Cancel</button>-->
+                    <!--</div>-->
+                </script>
+
+
+                <uib-tab index="1" select="getAllGenres(firstCallGenre)">
+                    <uib-tab-heading>
+                        <i class="glyphicon glyphicon-music"></i> GENRES
+                    </uib-tab-heading>
+                    <br>
+                    <div class="container">
+                        <h3 class="title">TRACK's GENRES</h3>
+
+                        <div class="contact-row">
+
+                            <md-content class="text-center">
+                                <md-list flex="">
+                                    <md-list-item class="md-3-line" ng-repeat="genre in allGenres">
+                                        <div class="md-list-item-text" layout="column">
+                                            <div class="row-fluid">
+                                                <h2 class="pull-left" style="margin-left: 1%">{{ genre.name }}</h2>
+                                                <md-button class="pull-right md-raised md-primary" ng-disabled=""
+                                                           ng-click="showPromptEditGenre(genre.id, genre.name,$event);">
+                                                    Edit
+                                                </md-button>
+                                            </div>
+                                        </div>
+                                    </md-list-item>
+
+                                    <br>
+
+                                    <md-button class="md-raised" ng-disabled="" ng-click="callPrevGenre()">
+                                        Previous
+                                    </md-button>
+
+                                    <md-button class="md-raised" ng-disabled="" ng-click="callNextGenre()">
+                                        Next
+                                    </md-button>
+                                </md-list>
+
+
+                                <md-button class="md-raised md-primary md-block" ng-click="addNewGenre()">
+                                    ADD NEW GENRE
+                                </md-button>
+
+                            </md-content>
+
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </uib-tab>
+
+                <script type="text/ng-template" id="dialog2.tmpl.html">
+                    <md-dialog
+                            aria-label="Add New Genre">
+                        <form ng-cloak name="userForm" style="color: black">
+                            <md-toolbar>
+                                <div class="md-toolbar-tools">
+                                    <h2>Add New Genre</h2>
+                                    <span flex></span>
+                                    <md-button class="" ng-click="cancel()">
+                                        <i class="glyphicon glyphicon-remove">
+                                        </i>
+                                    </md-button>
+                                </div>
+                            </md-toolbar>
+
+                            <md-dialog-content>
+                                <div class="md-dialog-content">
+
+                                    <div layout-gt-sm="row">
+                                        <md-input-container class="md-block" flex-gt-sm="">
+                                            <label>Genre Name</label>
+                                            <input ng-model="newGenreName" autofocus>
+                                        </md-input-container>
+                                    </div>
+
+                                </div>
+                            </md-dialog-content>
+
+
+                            <md-dialog-actions layout="row">
+                                <md-button ng-click="cancel()">
+                                    Cancel
+                                </md-button>
+                                <md-button ng-click="answer(newGenreName)">
+                                    Save
+                                </md-button>
+                            </md-dialog-actions>
+                        </form>
+                    </md-dialog>
+                </script>
+
+            </uib-tabset>
+
+        </div>
+
+        <br>
+        <br>
+
+        <!-- <student name = "Mahesh"></student><br/>
+        <student name = "Piyush"></student> -->
+
+    </div>
+
+    <hr/>
+    <hr/>
+</div>
+
+<script src="js/modules/bootstrap.js"></script>

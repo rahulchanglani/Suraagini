@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="775d3973-acfc-4b01-bef7-588ea2865c18" name="Default" comment="nine" />
+    <ignored path="personal-website-mean-master.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="$USER_HOME$/codebase/Core-Platform" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="personal-website-mean-master" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/views/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.591716">
+              <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#md-input-container#0;n#form#0;n#md-content#0;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#h2#0;n#div#0;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#1;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#1;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#1;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#uib-tab#1;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#0;n#div#0;n#div#0;n#uib-tab#1;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#script#2;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="e#19384#19477#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.735294">
+              <caret line="518" column="0" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
+              <folding>
+                <element signature="e#4424#4465#0" expanded="false" />
+                <element signature="e#4907#4947#0" expanded="false" />
+                <element signature="e#6551#6916#0" expanded="false" />
+                <element signature="e#6962#7103#0" expanded="false" />
+                <element signature="e#7149#7298#0" expanded="false" />
+                <element signature="e#7488#7926#0" expanded="false" />
+                <element signature="e#7634#7914#0" expanded="false" />
+                <element signature="e#7970#8074#0" expanded="false" />
+                <element signature="e#8951#9021#0" expanded="false" />
+                <element signature="e#14063#16141#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/js/controllers/DigitalArtGalleryCtrl.js" />
+        <option value="$PROJECT_DIR$/public/views/downloads.html" />
+        <option value="$PROJECT_DIR$/public/js/controllers/DownloadsCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/LoginCtrl.js" />
+        <option value="$PROJECT_DIR$/public/views/login.html" />
+        <option value="$PROJECT_DIR$/public/js/controllers/LoggedinCtrl.js" />
+        <option value="$PROJECT_DIR$/public/views/loggedin.html" />
+        <option value="$PROJECT_DIR$/config/db.js" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/public/views/404.html" />
+        <option value="$PROJECT_DIR$/public/js/general.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/public/js/appRoutes.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/public/js/services/ProfileService.js" />
+        <option value="$PROJECT_DIR$/public/js/appDirectives.js" />
+        <option value="$PROJECT_DIR$/public/views/profile.html" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/ProfileCtrl.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/libs/angular-animate/angular-animate.js" />
+        <option value="$PROJECT_DIR$/public/sw.js" />
+        <option value="$PROJECT_DIR$/public/manifest.json" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/js/controllers/MainCtrl.js" />
+        <option value="$PROJECT_DIR$/public/views/main.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="27" />
+    <option name="width" value="1368" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-MUSIC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-MUSIC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-MUSIC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-MUSIC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-MUSIC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-MUSIC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-MUSIC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$USER_HOME$/codebase/Core-Platform" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="85" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="101" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="107" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1005" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="84" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="99" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="106" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1009" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="775d3973-acfc-4b01-bef7-588ea2865c18" name="Default" comment="" />
+      <created>1473866775584</created>
+      <option name="number" value="Default" />
+      <updated>1473866775584</updated>
+    </task>
+    <task id="LOCAL-00037" summary="seventh">
+      <created>1473878753843</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1473878753843</updated>
+    </task>
+    <task id="LOCAL-00038" summary="seventh">
+      <created>1473879980138</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1473879980138</updated>
+    </task>
+    <task id="LOCAL-00039" summary="seventh">
+      <created>1473916066858</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1473916066858</updated>
+    </task>
+    <task id="LOCAL-00040" summary="seventh">
+      <created>1473916175236</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1473916175236</updated>
+    </task>
+    <task id="LOCAL-00041" summary="seventh">
+      <created>1473916295930</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1473916295930</updated>
+    </task>
+    <task id="LOCAL-00042" summary="seventh">
+      <created>1473916450982</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1473916450982</updated>
+    </task>
+    <task id="LOCAL-00043" summary="seventh">
+      <created>1473916547601</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1473916547601</updated>
+    </task>
+    <task id="LOCAL-00044" summary="eight">
+      <created>1473917067522</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1473917067522</updated>
+    </task>
+    <task id="LOCAL-00045" summary="eight">
+      <created>1473917322035</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1473917322035</updated>
+    </task>
+    <task id="LOCAL-00046" summary="eight">
+      <created>1473917638422</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1473917638422</updated>
+    </task>
+    <task id="LOCAL-00047" summary="eight">
+      <created>1473918082848</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1473918082848</updated>
+    </task>
+    <task id="LOCAL-00048" summary="eight">
+      <created>1473919807162</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1473919807162</updated>
+    </task>
+    <task id="LOCAL-00049" summary="eight">
+      <created>1473920095479</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1473920095479</updated>
+    </task>
+    <task id="LOCAL-00050" summary="eight">
+      <created>1473921162450</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1473921162452</updated>
+    </task>
+    <task id="LOCAL-00051" summary="eight">
+      <created>1473921194334</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1473921194334</updated>
+    </task>
+    <task id="LOCAL-00052" summary="eight">
+      <created>1473921329850</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1473921329850</updated>
+    </task>
+    <task id="LOCAL-00053" summary="eight">
+      <created>1473922053605</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1473922053605</updated>
+    </task>
+    <task id="LOCAL-00054" summary="eight">
+      <created>1473922135217</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1473922135217</updated>
+    </task>
+    <task id="LOCAL-00055" summary="eight">
+      <created>1473922378781</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1473922378781</updated>
+    </task>
+    <task id="LOCAL-00056" summary="eight">
+      <created>1473922570409</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1473922570409</updated>
+    </task>
+    <task id="LOCAL-00057" summary="eight">
+      <created>1473922618876</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1473922618876</updated>
+    </task>
+    <task id="LOCAL-00058" summary="nine">
+      <created>1473940041136</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1473940041137</updated>
+    </task>
+    <task id="LOCAL-00059" summary="nine">
+      <created>1473940384785</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1473940384785</updated>
+    </task>
+    <task id="LOCAL-00060" summary="nine">
+      <created>1473952578205</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1473952578206</updated>
+    </task>
+    <task id="LOCAL-00061" summary="nine">
+      <created>1473952993818</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1473952993818</updated>
+    </task>
+    <task id="LOCAL-00062" summary="nine">
+      <created>1473953110603</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1473953110603</updated>
+    </task>
+    <task id="LOCAL-00063" summary="nine">
+      <created>1473953197298</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1473953197298</updated>
+    </task>
+    <task id="LOCAL-00064" summary="nine">
+      <created>1473953599100</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1473953599100</updated>
+    </task>
+    <task id="LOCAL-00065" summary="nine">
+      <created>1473957788017</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1473957788017</updated>
+    </task>
+    <task id="LOCAL-00066" summary="nine">
+      <created>1473958091606</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1473958091606</updated>
+    </task>
+    <task id="LOCAL-00067" summary="nine">
+      <created>1473958146782</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1473958146782</updated>
+    </task>
+    <task id="LOCAL-00068" summary="nine">
+      <created>1473958362421</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1473958362421</updated>
+    </task>
+    <task id="LOCAL-00069" summary="nine">
+      <created>1473958454431</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1473958454431</updated>
+    </task>
+    <task id="LOCAL-00070" summary="nine">
+      <created>1473958588963</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1473958588963</updated>
+    </task>
+    <task id="LOCAL-00071" summary="nine">
+      <created>1473959003996</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1473959003996</updated>
+    </task>
+    <task id="LOCAL-00072" summary="nine">
+      <created>1473959078896</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1473959078896</updated>
+    </task>
+    <task id="LOCAL-00073" summary="nine">
+      <created>1473959184767</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1473959184767</updated>
+    </task>
+    <task id="LOCAL-00074" summary="nine">
+      <created>1473959250656</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1473959250656</updated>
+    </task>
+    <task id="LOCAL-00075" summary="nine">
+      <created>1473959370683</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1473959370683</updated>
+    </task>
+    <task id="LOCAL-00076" summary="nine">
+      <created>1473960240052</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1473960240052</updated>
+    </task>
+    <task id="LOCAL-00077" summary="two">
+      <created>1474043845712</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1474043845713</updated>
+    </task>
+    <task id="LOCAL-00078" summary="two">
+      <created>1474075066964</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1474075066965</updated>
+    </task>
+    <task id="LOCAL-00079" summary="nine">
+      <created>1474075264349</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1474075264349</updated>
+    </task>
+    <task id="LOCAL-00080" summary="two">
+      <created>1474075570413</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1474075570413</updated>
+    </task>
+    <task id="LOCAL-00081" summary="two">
+      <created>1474075670083</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1474075670083</updated>
+    </task>
+    <task id="LOCAL-00082" summary="three">
+      <created>1474077390274</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1474077390274</updated>
+    </task>
+    <task id="LOCAL-00083" summary="three">
+      <created>1474080474747</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1474080474748</updated>
+    </task>
+    <task id="LOCAL-00084" summary="nine">
+      <created>1474080659911</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1474080659911</updated>
+    </task>
+    <task id="LOCAL-00085" summary="four">
+      <created>1474132255871</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1474132255894</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fifth" />
+    <MESSAGE value="fifth.." />
+    <MESSAGE value="sixth" />
+    <MESSAGE value="seventh" />
+    <MESSAGE value="eight" />
+    <MESSAGE value="two" />
+    <MESSAGE value="three" />
+    <MESSAGE value="nine" />
+    <MESSAGE value="four" />
+    <option name="LAST_COMMIT_MESSAGE" value="four" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/js/appRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#4424#4465#0" expanded="false" />
+            <element signature="e#4907#4947#0" expanded="false" />
+            <element signature="e#6551#6916#0" expanded="false" />
+            <element signature="e#6962#7103#0" expanded="false" />
+            <element signature="e#7149#7298#0" expanded="false" />
+            <element signature="e#7488#7926#0" expanded="false" />
+            <element signature="e#7634#7914#0" expanded="false" />
+            <element signature="e#7970#8074#0" expanded="false" />
+            <element signature="e#8951#9021#0" expanded="false" />
+            <element signature="e#14063#16141#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding>
+            <element signature="e#4424#4465#0" expanded="false" />
+            <element signature="e#4907#4947#0" expanded="false" />
+            <element signature="e#6551#6916#0" expanded="false" />
+            <element signature="e#6962#7103#0" expanded="false" />
+            <element signature="e#7149#7298#0" expanded="false" />
+            <element signature="e#7488#7926#0" expanded="false" />
+            <element signature="e#7634#7914#0" expanded="false" />
+            <element signature="e#7970#8074#0" expanded="false" />
+            <element signature="e#8951#9021#0" expanded="false" />
+            <element signature="e#14063#16141#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/appRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#md-input-container#0;n#form#0;n#md-content#0;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#h2#0;n#div#0;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#1;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#1;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#1;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#uib-tab#1;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#0;n#div#0;n#div#0;n#uib-tab#1;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#script#2;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="e#19384#19477#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#4424#4465#0" expanded="false" />
+            <element signature="e#4907#4947#0" expanded="false" />
+            <element signature="e#6551#6916#0" expanded="false" />
+            <element signature="e#6962#7103#0" expanded="false" />
+            <element signature="e#7149#7298#0" expanded="false" />
+            <element signature="e#7488#7926#0" expanded="false" />
+            <element signature="e#7634#7914#0" expanded="false" />
+            <element signature="e#7970#8074#0" expanded="false" />
+            <element signature="e#8951#9021#0" expanded="false" />
+            <element signature="e#14063#16141#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="217" column="140" selection-start-line="217" selection-start-column="140" selection-end-line="217" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="436" column="7" selection-start-line="436" selection-start-column="7" selection-end-line="436" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1281" column="36" selection-start-line="1281" selection-start-column="36" selection-end-line="1281" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="727" column="0" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1281" column="36" selection-start-line="1281" selection-start-column="36" selection-end-line="1281" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="43" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/appRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/appRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="725" column="0" selection-start-line="725" selection-start-column="0" selection-end-line="725" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5065666">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="18" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07964602">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19699812">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/appRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26548672">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33274338">
+          <caret line="1144" column="0" selection-start-line="1144" selection-start-column="0" selection-end-line="1144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.735294">
+          <caret line="518" column="0" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
+          <folding>
+            <element signature="e#4424#4465#0" expanded="false" />
+            <element signature="e#4907#4947#0" expanded="false" />
+            <element signature="e#6551#6916#0" expanded="false" />
+            <element signature="e#6962#7103#0" expanded="false" />
+            <element signature="e#7149#7298#0" expanded="false" />
+            <element signature="e#7488#7926#0" expanded="false" />
+            <element signature="e#7634#7914#0" expanded="false" />
+            <element signature="e#7970#8074#0" expanded="false" />
+            <element signature="e#8951#9021#0" expanded="false" />
+            <element signature="e#14063#16141#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.591716">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#md-input-container#0;n#form#0;n#md-content#0;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#h2#0;n#div#0;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#1;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#1;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#1;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#uib-tab#1;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#md-list-item#0;n#md-list#0;n#md-content#0;n#div#0;n#div#0;n#uib-tab#1;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#script#2;n#uib-tabset#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="e#19384#19477#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
