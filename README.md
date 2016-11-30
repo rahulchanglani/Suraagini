@@ -10,5 +10,20 @@
 
 <p align="center">
   <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Add%20New%20Genre.png" width="350"/>
-  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Add%20New%20Genre.png" width="350"/>
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Add%20New%20Track.png" width="350"/>
+</p>
+<p align="center">
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/All%20Genres.png" width="350"/>
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/All%20Tracks.png" width="350"/>
+</p>
+<p align="center">
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Edit%20Genre.png" width="350"/>
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Edit%20Track%20Title.png" width="350"/>
+</p>
+<p align="center">
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Edit%20Track%20Rating.png" width="350"/>
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Pagination%20Tracks.png" width="350"/>
+</p>
+<p align="center">
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Search%20Track.png" width="350"/>
 </p>
