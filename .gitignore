@@ -9,11 +9,13 @@ lib-cov
 
 *.txt
 
+.idea/*
+*.xml
+
 pids
 logs
 results
 
 npm-debug.log
 node_modules
-
-public/libs
+libs

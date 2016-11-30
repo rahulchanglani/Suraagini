@@ -72,6 +72,11 @@
                                                 <li style="display: inline; float: left"> {{ $first ? '[' : '' }}{{ gen.name }}{{ $last ? ']' : '&nbsp;|&nbsp;' }}
                                                 </li>
                                             </ul>
+                                            <!--<i class="glyphicon glyphicon-edit" style="font-size: 12px;float:left;margin-left: 0.5%" ng-click="showPromptEditTrackGenre(track, $event);">-->
+                                                <!--<md-tooltip md-direction="right">-->
+                                                    <!--Edit Track Genres-->
+                                                <!--</md-tooltip>-->
+                                            <!--</i>-->
                                         </div>
 
                                     </div>
@@ -182,47 +187,47 @@
                 </script>
 
                 <script type="text/ng-template" id="myModalContent.html">
-                    <div class="modal-body" id="modal-body">
+                    <div class="modal-body" id="modal-body"  ="ff()">
 
                         <form ng-cloak name="userForm">
-                            <md-toolbar>
-                                <div class="md-toolbar-tools">
-                                    <h2>Edit Track</h2>
-                                    <!--<span flex></span>-->
-                                    <!--<md-button aria-label="Edit track" class="" ng-click="cancel()">-->
-                                        <!--<i class="glyphicon glyphicon-remove">-->
-                                        <!--</i>-->
-                                    <!--</md-button>-->
-                                </div>
-                            </md-toolbar>
+                            <!--<md-toolbar>-->
+                                <!--<div class="md-toolbar-tools">-->
+                                    <!--<h2>Edit Track</h2>-->
+                                    <!--&lt;!&ndash;<span flex></span>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<md-button aria-label="Edit track" class="" ng-click="cancel()">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;<i class="glyphicon glyphicon-remove">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;</i>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;</md-button>&ndash;&gt;-->
+                                <!--</div>-->
+                            <!--</md-toolbar>-->
 
                             <md-dialog-content>
                                 <div class="md-dialog-content">
 
-                                    <div layout-gt-sm="row">
-                                        <!--<md-input-container class="md-block" flex-gt-sm="">-->
-                                            <!--<label>New Track Title</label>-->
-                                            <!--<input ng-model="trackToUpdate.Title" autofocus>-->
-                                        <!--</md-input-container>-->
+                                    <!--<div layout-gt-sm="row">-->
+                                        <!--&lt;!&ndash;<md-input-container class="md-block" flex-gt-sm="">&ndash;&gt;-->
+                                            <!--&lt;!&ndash;<label>New Track Title</label>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;<input ng-model="trackToUpdate.Title" autofocus>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;</md-input-container>&ndash;&gt;-->
 
-                                        <md-input-container class="md-block" flex-gt-sm="">
-                                            <label>New Track Rating</label>
-                                            <input name="rating" ng-model="trackToUpdate.Rating" required=""
-                                                   ng-pattern="/^[0-9]{1}(\.[0-9])?$/" md-maxlength="3">
+                                        <!--&lt;!&ndash;<md-input-container class="md-block" flex-gt-sm="">&ndash;&gt;-->
+                                            <!--&lt;!&ndash;<label>New Track Rating</label>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;<input name="rating" ng-model="trackToUpdate.Rating" required=""&ndash;&gt;-->
+                                                   <!--&lt;!&ndash;ng-pattern="/^[0-9]{1}(\.[0-9])?$/" md-maxlength="3">&ndash;&gt;-->
 
-                                            <div ng-messages="userForm.rating.$error" role="alert" multiple="">
-                                                <div ng-message="required" class="my-message">You must supply a track
-                                                    rating.E.g.: x.x
-                                                </div>
-                                                <div ng-message="pattern" class="my-message">Not a valid track
-                                                    rating.E.g.: x.x
-                                                </div>
-                                                <div ng-message="md-maxlength" class="my-message">
-                                                    Max length is 3 digits.E.g.: x.x
-                                                </div>
-                                            </div>
-                                        </md-input-container>
-                                    </div>
+                                            <!--&lt;!&ndash;<div ng-messages="userForm.rating.$error" role="alert" multiple="">&ndash;&gt;-->
+                                                <!--&lt;!&ndash;<div ng-message="required" class="my-message">You must supply a track&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;rating.E.g.: x.x&ndash;&gt;-->
+                                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                                <!--&lt;!&ndash;<div ng-message="pattern" class="my-message">Not a valid track&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;rating.E.g.: x.x&ndash;&gt;-->
+                                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                                <!--&lt;!&ndash;<div ng-message="md-maxlength" class="my-message">&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;Max length is 3 digits.E.g.: x.x&ndash;&gt;-->
+                                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;</md-input-container>&ndash;&gt;-->
+                                    <!--</div>-->
 
                                     <div>
 

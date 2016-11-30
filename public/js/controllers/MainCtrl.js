@@ -7,6 +7,38 @@ angular.module('MainCtrl', ['ngAnimate', 'ui.bootstrap', 'ngMaterial', 'ngMessag
 
     .controller('MainController', function ($scope, $http, $resource, $mdDialog, $uibModal) {
 
+        $scope.ff = function () {
+            console.log('cccccccccccccc');
+            $resource("http://​104.197.128.152:8000/v1/genres").get().$promise.then(function (value) {
+                console.log('asdasdasdasd',value)
+
+                $scope.allGenres11 = value.results;
+                console.log('!!!!!!!!!',JSON.stringify($scope.allGenres11));
+                $scope.totalGenres11 = value.count;
+                $scope.nextPageGenre11 = value.next;
+                $scope.previousPageGenre11 = value.previous;
+            });
+
+            $scope.getAllGenres11 = function (param) {
+
+                $resource(param).get().$promise.then(function (value) {
+                    $scope.allGenres11 = value.results;
+                    $scope.totalGenres11 = value.count;
+                    $scope.nextPageGenre11 = value.next;
+                    $scope.previousPageGenre11 = value.previous;
+                });
+            };
+
+            $scope.callNextGenre11 = function () {
+                $scope.getAllGenres11($scope.nextPageGenre11);
+            };
+
+            $scope.callPrevGenre11 = function () {
+                $scope.getAllGenres11($scope.previousPageGenre11);
+            };
+        }
+
+
         $scope.trackToUpdate = {
             Id: null,
             Title: '',
@@ -40,32 +72,7 @@ angular.module('MainCtrl', ['ngAnimate', 'ui.bootstrap', 'ngMaterial', 'ngMessag
             $scope.nextPageGenre11 = "";
             $scope.previousPageGenre11 = "";
 
-            $resource("http://​104.197.128.152:8000/v1/genres").get().$promise.then(function (value) {
 
-                $scope.allGenres11 = value.results;
-                console.log('!!!!!!!!!',JSON.stringify($scope.allGenres11));
-                $scope.totalGenres11 = value.count;
-                $scope.nextPageGenre11 = value.next;
-                $scope.previousPageGenre11 = value.previous;
-            });
-
-            $scope.getAllGenres11 = function (param) {
-
-                $resource(param).get().$promise.then(function (value) {
-                    $scope.allGenres11 = value.results;
-                    $scope.totalGenres11 = value.count;
-                    $scope.nextPageGenre11 = value.next;
-                    $scope.previousPageGenre11 = value.previous;
-                });
-            };
-
-            $scope.callNextGenre11 = function () {
-                $scope.getAllGenres11($scope.nextPageGenre11);
-            };
-
-            $scope.callPrevGenre11 = function () {
-                $scope.getAllGenres11($scope.previousPageGenre11);
-            };
 
 
             $scope.toggle11 = function (item, list) {
@@ -449,6 +456,115 @@ angular.module('MainCtrl', ['ngAnimate', 'ui.bootstrap', 'ngMaterial', 'ngMessag
                 console.log('cancel edit track title');
             });
         };
+
+        $scope.showPromptEditTrackGenre = function (track, ev) {
+            console.log('--',track);
+
+            $scope.eachTrackGenreIds = [];
+            angular.forEach(track.genres, function(g) {
+                if($scope.eachTrackGenreIds.indexOf(g.id) === -1) {
+                    $scope.eachTrackGenreIds.push(g.id);
+                }
+            });
+            console.log('***********',$scope.eachTrackGenreIds);
+
+            $scope.updatedTrackId = track.id;
+            $scope.updatedTrackName = track.title;
+            $scope.updatedTrackRating = parseFloat(track.rating);
+
+            var modalInstance = $uibModal.open({
+                //ariaLabelledBy: 'modal-title',
+                ariaDescribedBy: 'modal-body',
+                templateUrl: 'myModalContent.html'
+            });
+
+
+
+
+////////////////
+            $scope.selected1 = $scope.trackToUpdate.Genres;
+
+            $scope.nextPageGenre11 = "";
+            $scope.previousPageGenre11 = "";
+
+            $resource("http://​104.197.128.152:8000/v1/genres").get().$promise.then(function (value) {
+
+                $scope.allGenres11 = value.results;
+                console.log('!!!!!!!!!',JSON.stringify($scope.allGenres11));
+                $scope.totalGenres11 = value.count;
+                $scope.nextPageGenre11 = value.next;
+                $scope.previousPageGenre11 = value.previous;
+            });
+
+            $scope.getAllGenres11 = function (param) {
+
+                $resource(param).get().$promise.then(function (value) {
+                    $scope.allGenres11 = value.results;
+                    $scope.totalGenres11 = value.count;
+                    $scope.nextPageGenre11 = value.next;
+                    $scope.previousPageGenre11 = value.previous;
+                });
+            };
+
+            $scope.callNextGenre11 = function () {
+                $scope.getAllGenres11($scope.nextPageGenre11);
+            };
+
+            $scope.callPrevGenre11 = function () {
+                $scope.getAllGenres11($scope.previousPageGenre11);
+            };
+
+
+            $scope.toggle11 = function (item, list) {
+                console.log(item,list);
+                var idx = list.indexOf(item);
+                if (idx > -1) {
+                    list.splice(idx, 1);
+                }
+                else {
+                    list.push(item);
+                }
+            };
+
+            $scope.existsss = function (item, list) {
+                console.log(item,list);
+                return list.indexOf(item) > -1;
+            };
+
+            //$scope.isIndeterminate = function () {
+            //    return ($scope.selected.length !== 0 &&
+            //    $scope.selected.length !== $scope.itemss.length);
+            //};
+            //
+            //$scope.isChecked = function () {
+            //    return $scope.selected.length === $scope.itemss.length;
+            //};
+            //
+            //$scope.toggleAll = function () {
+            //    if ($scope.selected.length === $scope.itemss.length) {
+            //        $scope.selected = [];
+            //    } else if ($scope.selected.length === 0 || $scope.selected.length > 0) {
+            //        $scope.selected = $scope.itemss.slice(0);
+            //    }
+            //};
+
+            $scope.hide = function () {
+                $mdDialog.hide();
+            };
+
+            $scope.cancel = function () {
+                $mdDialog.cancel();
+            };
+
+            //$scope.saveNewTrack = function () {
+            //    console.log("answer save");
+            //    $resource('http://104.197.128.152:8000/v1/tracks').save({'title': $scope.newTrack.Title,'rating': parseFloat($scope.newTrack.Rating), 'genres': $scope.selected}, function () {
+            //    });
+            //    $mdDialog.hide();
+            //};
+        };
+
+
 
 
         //Update genre/////////////////////////////////////////////////////////////////////////////done
