@@ -8,4 +8,7 @@
 5. View in browser at http://localhost:7000
 
 
-
+<p align="center">
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Add%20New%20Genre.png" width="350"/>
+  <img src="https://github.com/rahulchanglani/Suraagini/blob/master/public/snapshots/Add%20New%20Genre.png" width="350"/>
+</p>
